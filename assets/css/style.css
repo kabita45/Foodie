@@ -1535,7 +1535,17 @@ textarea.input-field {
  * responsive for larger than 992px screen
  */
 
-@media (min-width: 992px) {
+
+  @media screen and (max-width:767px) {
+    .header-container {
+      display: flex;
+      justify-content: center ;
+    }
+    .header-container nav ul li {
+        display: none;
+    }
+    
+}
 
   /**
    * CUSTOM PROPERTY
